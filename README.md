@@ -1,4 +1,4 @@
 # Final-Project
 
 
-Movies data involing ratings using Machine Learning and Regression and SQL Database
+Movies data involving ratings using Machine Learning and SQL Database
