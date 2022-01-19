@@ -6,6 +6,10 @@
 * Reason why we selected topic - There is alot of discussion with which variables play a role in the IMDB movie rating scores. We wanted to create a model that supports a deciding factor.
 * Descirption of Source of Data - Both or ur movie data sources were downloaded from Kaggle.
 * Question we hope to answer with the date - Whate factor influences the IMDB movie score the most.
+*
+## Communication Protocals
+* We will be using zoom, slack, and github to communicate.
+
 
 
 ## Decide on a topic for the project—think of a question that can be answered using data.
