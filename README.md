@@ -1,8 +1,6 @@
 # Final-Project
 
-
 Movies data involving ratings using Machine Learning and SQL Database
-
 
 ## Decide on a topic for the project—think of a question that can be answered using data.
 
@@ -22,16 +20,6 @@ Done
 TBD
 
 
-For our visulizations check out confusion matrices
-
-Check out yellow brick python
-
-Regression Visualizers
-
-Risduals Plot and Prediction Error
-
-Classification Visualizers
- Where we bucket
  
 ##  Reminders : 
  * Do we know how our model tells the story with the Data?
