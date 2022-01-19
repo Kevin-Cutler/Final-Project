@@ -7,7 +7,7 @@ Movies data involving ratings using Machine Learning and SQL Database
 ## Decide on a topic for the project—think of a question that can be answered using data.
 
     We want to predict the IMDB user rating score using the data provided in the CSV.
-    The join may be hard if there are different spellins of the movie
+    The join may be hard if there are different spellings of the movie
 
 ## Create a repository for the project and invite the other team members to join.
 Done
