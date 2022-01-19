@@ -32,3 +32,8 @@ Risduals Plot and Prediction Error
 
 Classification Visualizers
  Where we bucket
+ 
+##  Reminders : 
+ * Do we know how our model tells the story with the Data?
+ 
+ * What Kind of Message will the dashboard display?
