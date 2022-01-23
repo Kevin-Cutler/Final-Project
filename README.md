@@ -1,4 +1,5 @@
-# Final-Project
+# Final Project
+![IMDB_Logo_2016](https://user-images.githubusercontent.com/88118759/150700799-37b89265-d9af-44fa-9e21-e0dc1b8e6544.svg)
 
 ## Content
 
