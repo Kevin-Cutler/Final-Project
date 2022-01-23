@@ -32,6 +32,6 @@ TBD
 
  
 ##  Reminders : 
- * Do we know how our model tells the story with the Data?
- 
- * What Kind of Message will the dashboard display?
+* Do we know how our model tells the story with the Data?
+* What Kind of Message will the dashboard display?
+* Link to Google slides: [here](https://docs.google.com/presentation/d/1K3iR-3VI6Z6oexiieo5eO8K5bZ4lB0vluZBnga12fdw/edit?usp=sharing)
