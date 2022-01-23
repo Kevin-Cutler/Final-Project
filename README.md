@@ -1,9 +1,19 @@
 # Final-Project
 
-Movies data involving ratings using Machine Learning and SQL Database
+## Content
+
+* Selected Topic - What variable are most important in predicted IMDB movie scores in a machine learning model.
+* Reason why we selected topic - There is a lot of discussion with which variables play a role in the IMDB movie rating scores. We wanted to create a model that supports a deciding factor.
+* Description of Data sources - Both our movie data sources were downloaded from Kaggle.
+* Question we hope to answer with the data - What factor influences the IMDB movie score the most.
+
+## Communication Protocals
+* We will be using zoom, slack, and github to communicate.
+
+
 
 ## Decide on a topic for the project—think of a question that can be answered using data.
-
+       
     We want to predict the IMDB user rating score using the data provided in the CSV.
     
 
