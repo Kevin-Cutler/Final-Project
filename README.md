@@ -25,9 +25,9 @@ Done
 Done
 
 ## Begin to clean, organize, and perform exploratory data analysis on your datasets so that they're ready for analysis.
- TBD
+ Done
 ## Include mockups of a machine learning model and a database.
-TBD
+Done
 
 
  
