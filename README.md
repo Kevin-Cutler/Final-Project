@@ -37,6 +37,18 @@ Once we loaded our datasets into our notebook we use needed to determine what da
 
 
 # Description of the analysis phase of the project
+______________________________________________________
+
+* Description of preliminary data preprocessing
+
+* Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
+
+
+* Description of how data was split into training and testing sets
+
+
+* Explanation of model choice, including limitations and benefits
+
  
 ##  Reminders : 
  * Do we know how our model tells the story with the Data?
