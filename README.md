@@ -17,8 +17,12 @@
     We want to predict the IMDB movie score using the data provided in the CSV.
     
 
-# Reason topic was selected
-Our goal in our analysis is to predict the IMDB user score by determining if a movie recieved a favorable or unfavorable IMDB score. We determine the scale to be set at Unfavorable if a movie recieved a score from (1 to less than 6) and a Favorable score for 6-10. The movie score rankings in our kaggle dataset is between 1-10. For our project we have selected 2 movie datasets from kaggle to be the source of our research and analysis. One of our datasets movies.csv captures columns that include IMDB score, IMDB user votes, genre, year released, writer, directer, star, country, budget, gross, and runtime as well as the genre rating. We combine this dataset with an additional csv from kaggle which is complied of the top 4000 movies ranked by production budget and containing release date, domestic gross revenue and worldwide revenue. We selected this dataset because we want  to settlethe dispute around which variables play a role in positively or negatively impacting a IMDB score. These days we spend alot of time indoors and 
+# Reason topic was selected - Description of the source of data - Questions the team hopes to answer with the data
+_____________________________________________________
+Our goal in our analysis is to predict the IMDB user score by determining if a movie recieved a favorable or unfavorable IMDB score. We determine the scale to be set at Unfavorable if a movie recieved a score from (1 to less than 6) and a Favorable score for 6-10. The movie score rankings in our kaggle dataset is between 1-10. For our project we have selected 2 movie datasets from kaggle to be the source of our research and analysis. One of our datasets movies.csv captures columns that include IMDB score, IMDB user votes, genre, year released, writer, directer, star, country, budget, gross, and runtime as well as the genre rating. We combine this dataset with an additional csv from kaggle which is complied of the top 4000 movies ranked by production budget and containing release date, domestic gross revenue and worldwide revenue. We selected this dataset because we want  to settle the dispute around which variables play a role in positively impacting a IMDB score. 
+
+# Description of the data exploration phase of the project
+_________________________________________________________
  
 ##  Reminders : 
  * Do we know how our model tells the story with the Data?
