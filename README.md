@@ -24,11 +24,16 @@ To predict IMDB scores we will be using a mchine learning modeal and we need a d
 
 ![image](https://user-images.githubusercontent.com/88467263/151076415-3e3134ab-2dc0-4f01-842d-b3439b8fdf33.png)
 
- Above you see that we have our single dataframe and now we need to determine which columns we need the least that will provide us with no useful meaning in determining IMDB movie scores. We chose to drop "name" column and keep "Movie Tile". We will only need one of these two columns. We decided to drop "Release Date" and keep "Year". Last we dropped the "Country" column we agreed that it did not play a role in the IMDB movie score. Next we will remove null values which leaves us with 2847 rows (See Below) which is a suitable amount of data for our machine learning model. Next we  see that there are columns in our dataframe that are extremely large, these columns are "Production Budget", "domestic Gross", "Worldwide Gross", "Votes", "Budget", "Gross". Before we can feed our dataset into a machine learning model we will need to scale these values down from 9 digits to 3 to 4 digits which will help our machine learning model make a more accurate decision. Belore we split or independent and dependent features the next step is to encode our categorical columns to numerical data to be fed into our model using sklearn labelencoder library. 
+ Above you see that we have our single dataframe and now we need to determine which columns we need the least that will provide us with no useful meaning in determining IMDB movie scores. We chose to drop "name" column and keep "Movie Tile". We will only need one of these two columns. We decided to drop "Release Date" and keep "Year". Last we dropped the "Country" column we agreed that it did not play a role in the IMDB movie score. Next we will remove null values which leaves us with 2847 rows (See Below) which is a suitable amount of data for our machine learning model. Next we  see that there are columns in our dataframe that are extremely large, these columns are "Production Budget", "domestic Gross", "Worldwide Gross", "Votes", "Budget", "Gross".  
  
  ![image](https://user-images.githubusercontent.com/88467263/151077295-b8d678b6-2d7a-4199-b362-417e4034f2ca.png)
 
+We know that our goal is to determine IMDB movie scores and we decided to categorize our movie scores into two buckets. In stead of determining each movie score we want to know what factores predict "Favorable" and "unFavorable" movie scores. For this step we created a function to transform movie scores 6 and greater to a string called "Favorable" and for scores less than 6 we will change those to "Unfavorable".
 
+![image](https://user-images.githubusercontent.com/88467263/151449957-51db6991-e884-4376-937c-d188a40d6c08.png)
+
+
+Before we can feed our dataset into a machine learning model we will need to scale these values down from 9 digits to 3 to 4 digits which will help our machine learning model make a more accurate decision. Belore we split or independent and dependent features the next step is to encode our categorical columns to numerical data to be fed into our model using sklearn labelencoder library.
 
 
 
