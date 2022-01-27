@@ -26,6 +26,7 @@ CREATE TABLE top_4000_movies (
 	Worldwide_Gross NUMERIC NOT NULL,
 	PRIMARY KEY (Movie_Title)
 );
+-- Join the two tables together on the movie_name and movie_title
 SELECT movies.movie_name, 
 	movies.rating, 
 	movies.genre,
