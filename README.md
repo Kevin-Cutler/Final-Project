@@ -2,9 +2,10 @@
 
 ![IMDB_Logo_2016](https://user-images.githubusercontent.com/88118759/150700799-37b89265-d9af-44fa-9e21-e0dc1b8e6544.svg)
 
-## Project Overview
+
 
 ## Overview
+_____________________________
 The goal of this project is to take two different movie datasets in order to develop a machine learning model that can predict whether or not it has a Favorable or Unfavorable movie score.  Both of the datasets were taken from kaggle.com.  The dataset top_4000_movies has data from 4000 different movies for features such as production budget and gross revenue for each movie.  The other dataset called movies also found from kaggle.com, has 7512 values for movie title and contains other variables such as rating, genre, year, votes, and cast information.  The movies dataset contains the IMDb score that was used as the outcome data and was broken up into scores above 6 as favorable, and below 6 as unfavorable.  The two datasets were merged on the same movie title to use more features in our machine learning model.  A random forest classifier model was used to predict the primary outcome of favorable vs unfavorable IMDb score as well as determine the most important features in the dataset. 
 
 For this project our team met using slack and discussed topics in zoom meetings.
