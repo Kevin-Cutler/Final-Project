@@ -51,6 +51,10 @@ _______________________________________________________________________
 ______________________________________________________
 
 * Description of preliminary data preprocessing
+![image](https://user-images.githubusercontent.com/88467263/151451774-9dc90e11-1d2d-45a5-949e-6804c167dc7c.png)
+
+![image](https://user-images.githubusercontent.com/88467263/151451833-8574d623-3e16-48f5-84e3-6a027e9ca1a1.png)
+
 
 * Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
 
