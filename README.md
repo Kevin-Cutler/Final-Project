@@ -31,5 +31,6 @@ To predict IMDB scores we will be using a mchine learning modeal and we need a d
 
 
 
+* Link to Google slides: [here](https://docs.google.com/presentation/d/1K3iR-3VI6Z6oexiieo5eO8K5bZ4lB0vluZBnga12fdw/edit?usp=sharing)
 
 
