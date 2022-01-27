@@ -33,7 +33,12 @@ Our goal is to determine IMDB movie scores and we decided to categorize our movi
 ![image](https://user-images.githubusercontent.com/88467263/151449957-51db6991-e884-4376-937c-d188a40d6c08.png)
 
 
-Next we notice that there are columns in our dataframe that have values that are very large, these columns are "Production Budget", "domestic Gross", "Worldwide Gross", "Votes", "Budget", "Gross". Before we can feed our dataset into a machine learning model we will need to scale these values down from 9 digits to 3 to 4 digits which will help our machine learning model make a more accurate decision. Belore we split or independent and dependent features the next step is to encode our categorical columns to numerical data to be fed into our model using sklearn labelencoder library.
+Next we notice that there are columns in our dataframe that have values that are very large, these columns are "Production Budget", "domestic Gross", "Worldwide Gross", "Votes", "Budget", "Gross". Before we can feed our dataset into a machine learning model we will need to scale these values down from 9 digits to 3 to 4 digits which will help our machine learning model make a more accurate decision. 
+
+![image](https://user-images.githubusercontent.com/88467263/151451025-3c92fc26-3a08-4823-9b5c-cedbcd0fa110.png)
+
+
+Belore we split or independent and dependent features the next step is to encode our categorical columns to numerical data to be fed into our model using sklearn labelencoder library.
 
 
 
