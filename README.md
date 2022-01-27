@@ -28,7 +28,7 @@ To predict IMDB scores we will be using a mchine learning modeal and we need a d
  
  ![image](https://user-images.githubusercontent.com/88467263/151077295-b8d678b6-2d7a-4199-b362-417e4034f2ca.png)
 
-We know that our goal is to determine IMDB movie scores and we decided to categorize our movie scores into two buckets. In stead of determining each movie score we want to know what factores predict "Favorable" and "unFavorable" movie scores. For this step we created a function to transform movie scores 6 and greater to a string called "Favorable" and for scores less than 6 we will change those to "Unfavorable".
+Our goal is to determine IMDB movie scores and we decided to categorize our movie scores into two buckets for our scores we have that range between (1-10). Instead of determining each movie score we want to know what factores predict "Favorable" and "unFavorable" movie scores. For this step we created a function to transform movie scores 6 and greater to a string called "Favorable" and for scores less than 6 we will change those to "Unfavorable". This way when we start to Hot Encode our categorical data we get a 0 for "Favorable IMDB Scores" and 1 for "Unfavorable IMDB Scores".
 
 ![image](https://user-images.githubusercontent.com/88467263/151449957-51db6991-e884-4376-937c-d188a40d6c08.png)
 
