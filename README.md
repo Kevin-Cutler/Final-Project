@@ -1,6 +1,8 @@
-# Final-Project
+# Predicting IMDB Movie Scores
 
-## Content
+![IMDB_Logo_2016](https://user-images.githubusercontent.com/88118759/150700799-37b89265-d9af-44fa-9e21-e0dc1b8e6544.svg)
+
+## Project Overview
 
 * Selected Topic - What variable are most important in predicted IMDB movie scores in a machine learning model.
 * Reason why we selected topic - There is alot of discussion with which variables play a role in the IMDB movie rating scores. We wanted to create a model that supports a deciding factor.
