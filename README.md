@@ -41,6 +41,10 @@ Next we notice that there are columns in our dataframe that have values that are
 Belore we split or independent and dependent features the next step is to encode our categorical columns to numerical data to be fed into our model using sklearn labelencoder library.
 ![image](https://user-images.githubusercontent.com/88467263/151451225-a825228e-6bce-481c-9648-727d829b59e6.png)
 
+### With Sklearn Label Encoder our Dataframe is ready to be Split
+_______________________________________________________________________
+
+![image](https://user-images.githubusercontent.com/88467263/151451397-e82be90d-d063-4740-aff9-85762e0336b1.png)
 
 
 # Description of the analysis phase of the project
