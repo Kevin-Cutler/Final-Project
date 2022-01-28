@@ -50,10 +50,11 @@ _______________________________________________________________________
 ![image](https://user-images.githubusercontent.com/88467263/151451397-e82be90d-d063-4740-aff9-85762e0336b1.png)
 
 
-# Description of the analysis phase of the project
+# Preparing our Model
 ______________________________________________________
 
-* Description of preliminary data preprocessing
+We start our preprocessing steps by dropping our target variable "Score" column and assigning it to "y" variable. We assign the features to the variable "X". Looking at our "X" variable using pandas describe() we have 2847 records for our model. Having a significant amount of data is key for our machine learning model  to allow it to make predictions based on patterns in the data.
+
 ![image](https://user-images.githubusercontent.com/88467263/151451774-9dc90e11-1d2d-45a5-949e-6804c167dc7c.png)
 
 ![image](https://user-images.githubusercontent.com/88467263/151451833-8574d623-3e16-48f5-84e3-6a027e9ca1a1.png)
