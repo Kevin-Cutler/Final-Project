@@ -20,7 +20,7 @@ _________________________________________________________
 
 Once we loaded our datasets into our notebook we use needed to determine what data we need to transform and we leverage pandas library for data cleaning. Our dataset need to be transformed before being fed into our machine learning model. We will be merging the two datasets on our movie name columns but we have to make sure that there are no duplicates which will cause errors when joinging the two into one dataframe.
 ![ERD_quick_db](https://user-images.githubusercontent.com/88444529/151272050-784114b2-8acb-49cb-a745-fe19f0243f7d.PNG)
-To predict IMDB scores we will be using a mchine learning modeal and we need a dataset with enough rows and suitable data to provide our model with enough data to predict our IMDB scores. After reading in our datasets we checked to determine how man duplicates were in each csv. Our movies.csv had 156 duplicates and the top 4000 movies had 48 duplicate rows. First we removed the movie name duplicates which allowed us to merge the two into one dataset. Now that we have removed duplicate movie names we merged our datasets into a single dataframe.
+To predict IMDB scores we will be using a mchine learning model and we need a dataset with enough rows and suitable data to provide our model with enough data to predict our IMDB scores. After reading in our datasets we checked to determine how man duplicates were in each csv. Our movies.csv had 156 duplicates and the top 4000 movies had 48 duplicate rows. First we removed the movie name duplicates which allowed us to merge the two into one dataset. Now that we have removed duplicate movie names we merged our datasets into a single dataframe.
 
 ![image](https://user-images.githubusercontent.com/88467263/151076415-3e3134ab-2dc0-4f01-842d-b3439b8fdf33.png)
 
@@ -28,5 +28,18 @@ To predict IMDB scores we will be using a mchine learning modeal and we need a d
  
  ![image](https://user-images.githubusercontent.com/88467263/151077295-b8d678b6-2d7a-4199-b362-417e4034f2ca.png)
 
+# Database and Data Exploration
+_________________________________________________________
 
+Data was first cleaned in jupyternotebooks using Pandas.  The movies.csv file was read into pandas and created into a dataframe.  Prior to any data cleaning there were 7363 rows in the movies_df dataframe.  The dataframe was inspected for duplicate entries and null values.  Each of the rows with duplicate entries for "movie_name" were dropped from the dataset.  There were 163 duplicate values that were dropped and 2162 rows that contained null values that were dropped.  The resulting movies_df dataframe had 5201 rows with unique values for "movie_name".
+![image](https://user-images.githubusercontent.com/88444529/151614347-3a3f6d84-97db-41b2-b135-c8e6dcde32cb.png)
+This same process was done for the top_4000_movies csv file from kaggle.  Upon reading in the dataframe there were 4000 rows.  The csv file was read in using Pandas and a dataframe was created top_4000_movies_df.  The dataframe contained 48 duplicate entries for "Movie Title" and 21 rows with null values.  Both the duplicate entries and rows with null values were dropped from the dataframe, and the resulting dataframe had 3883 rows with unique values for "Movie Title".
+![image](https://user-images.githubusercontent.com/88444529/151615118-e86b789a-63c9-4118-8194-2a46f5629e6c.png)
+SQLalchemy was used to connect our jupyter notebook to pgAdmin and our PostgreSQL data base.  A connection string and engine were created to connect to our database and export the cleaned dataframes top_4000_movies_df and movies_df to pgAdmin.  They were exported into our database named "movies_final" into tables called "top_4000_movies" and "movies" for the dataframes, movies and top_4000_movies respectively.
+![image](https://user-images.githubusercontent.com/88444529/151619296-4f9d6685-a4a7-4f64-aa6a-a366ef040344.png)
+![image](https://user-images.githubusercontent.com/88444529/151619380-6063ed47-8505-4e83-8160-0f4fefe6ff32.png)
+![image](https://user-images.githubusercontent.com/88444529/151619471-2de79bdf-b5d2-4904-bf49-7b8f7045fb34.png)
+Upon exporting the dataframes into the "movies_final" database a join was done on the movies and top_4000_movies tables on the matching primary keys of each table, "Movie_Title" from top_4000_movies and "movie_name" from movies.  The resulting joined table from our database was read back into our jupyter notebook for analysis using SQLalchemy again.
+![image](https://user-images.githubusercontent.com/88444529/151620127-6b248c38-9b71-4234-aa12-8c9e5bc7e0fd.png)
+![image](https://user-images.githubusercontent.com/88444529/151620369-17e7bb11-cccb-4026-831b-a12c3bd2036e.png)
 
