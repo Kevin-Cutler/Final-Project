@@ -69,8 +69,11 @@ We start our preprocessing steps by dropping our target variable "Score" column 
 * Explanation of model choice, including limitations and benefits
 
  
-##  Reminders : 
+
  * Do we know how our model tells the story with the Data?
+
+![image](https://user-images.githubusercontent.com/88467263/151465947-020a708b-bdc7-4ca5-8e40-18edcfb273fc.png)
+
  
  * What Kind of Message will the dashboard display?
 
