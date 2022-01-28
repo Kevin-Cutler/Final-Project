@@ -53,7 +53,7 @@ _______________________________________________________________________
 # Preparing our Model
 ______________________________________________________
 
-We start our preprocessing steps by dropping our target variable "Score" column and assigning it to "y" variable. We assign the features to the variable "X". Looking at our "X" variable using pandas describe() we have 2847 records for our model. Having a significant amount of data is key for our machine learning model  to allow it to make predictions based on patterns in the data.
+We start our preprocessing steps by dropping our target variable "Score" column and assigning it to "y" variable. We assign the features to the variable "X". Looking at our "X" variable using pandas describe() we have 2847 records for our model. Having a significant amount of data is key for our machine learning model  to allow it to make predictions based on patterns in the data. Using value_counts() on our "y" variable our target we see that there are 2065 "Favorable IMDB scores" and 782 "Unfavorable IMDB scores". We initate the next step which is to split the training and test sets. The model uses the training dataset to learn from it. It then uses the testing dataset to assess its performance. 
 
 ![image](https://user-images.githubusercontent.com/88467263/151451774-9dc90e11-1d2d-45a5-949e-6804c167dc7c.png)
 
