@@ -76,12 +76,16 @@ We use the random forest classifier - RandomForestClassifier() prior to fitting 
 # After fitting the model, we make our predictions using the scaled testing data.
 
  ![image](https://user-images.githubusercontent.com/88467263/151669837-929a079b-5801-4542-a504-f92c3852896a.png)
+ 
+ ![image](https://user-images.githubusercontent.com/88467263/151669886-de8df471-ed24-4ba9-a1c4-2c4ced6df4e8.png)
 
-* Explanation of model choice, including limitations and benefits
+
  * Do we know how our model tells the story with the Data?
 
 ![image](https://user-images.githubusercontent.com/88467263/151465947-020a708b-bdc7-4ca5-8e40-18edcfb273fc.png)
 
+
+* Explanation of model choice, including limitations and benefits
  
  * What Kind of Message will the dashboard display?
 
