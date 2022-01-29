@@ -18,7 +18,7 @@ A big reason we decided to use supervised random forest model and determine the 
 # Data Exploration
 _________________________________________________________
 
-Once we loaded our datasets into our notebook we use needed to determine what data we need to transform and we leverage pandas library for data cleaning. Our dataset need to be transformed before being fed into our machine learning model. We will be merging the two datasets on our movie name columns but we have to make sure that there are no duplicates which will cause errors when joinging the two into one dataframe.
+Once we loaded our datasets into our notebook we determine what data to transform and we leverage pandas library for data cleaning. Our dataset need to be transformed before being fed into our machine learning model. We will be merging the two datasets on our movie name columns but we have to make sure that there are no duplicates which will cause errors when joinging the two into one dataframe.
 ![ERD_quick_db](https://user-images.githubusercontent.com/88444529/151272050-784114b2-8acb-49cb-a745-fe19f0243f7d.PNG)
 To predict IMDB scores we will be using a mchine learning modeal and we need a dataset with enough rows and suitable data to provide our model with enough data to predict our IMDB scores. After reading in our datasets we checked to determine how man duplicates were in each csv. Our movies.csv had 156 duplicates and the top 4000 movies had 48 duplicate rows. First we removed the movie name duplicates which allowed us to merge the two into one dataset. Now that we have removed duplicate movie names we merged our datasets into a single dataframe.
 
