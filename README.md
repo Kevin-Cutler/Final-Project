@@ -62,7 +62,7 @@ We start our preprocessing steps by dropping our target variable "Score" column 
 ![image](https://user-images.githubusercontent.com/88467263/151451833-8574d623-3e16-48f5-84e3-6a027e9ca1a1.png)
 
 
-# we can create the StandardScaler instance, fit the scaler with the training set, and scale the data.
+# We create the StandardScaler instance, Fit the scaler with the training set, and scale the data.
 ![image](https://user-images.githubusercontent.com/88467263/151669220-8cbe1330-e92f-41c3-9424-61953210bcda.png)
 
 
