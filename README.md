@@ -88,6 +88,23 @@ We use the random forest classifier - RandomForestClassifier() prior to fitting 
 
 ![image](https://user-images.githubusercontent.com/88467263/151465947-020a708b-bdc7-4ca5-8e40-18edcfb273fc.png)
 
+# Summary of Performance: Confusion Matrix
+
+*  Out of 515 movies that obtained a "Favorable IMDB Score" (Actual 0), 488
+   were predicted to have a "Favorable IMDB Score" (Predicted 0),
+   which is known as true positives. 
+   
+*  Out of 515 movies that obtained a "Favorable IMDB Score" (Actual 0),
+   27 were predicted to have a "Unfavorable IMDB Score" (Predicted 1),
+   which are considered false negatives.
+   
+*  Out of 197 movies that obtained a "Unfavorable IMDB Score" (Actual 1),
+   88 were predicted to have a "Favorable IMDB Score" (Predicted 0)
+   and are considered false positives.
+   
+*  Out of 197 movies that obtained a "Unfavorable IMDB Score" (Actual 1),
+   109 were predicted to be have a "Unfavorable IMDB Score" (Predicted 1)
+   and are considered true negatives.
 
 * Explanation of model choice, including limitations and benefits
  
