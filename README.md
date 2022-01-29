@@ -137,6 +137,20 @@ We use the random forest classifier - RandomForestClassifier() prior to fitting 
 
 ![image](https://user-images.githubusercontent.com/88467263/151670866-0a461a19-5186-495d-9ab0-2e5952765dc2.png)
 
+# Votes vs Score Scatter Plot
+
+![image](https://user-images.githubusercontent.com/88467263/151676325-b8b07ec8-7d2b-46a8-998a-969b7650706e.png)
+
+# Runtime vs Score Scatter Plot
+
+![image](https://user-images.githubusercontent.com/88467263/151676351-7f25a968-9b0d-4fa2-95c1-100c25c9a8b0.png)
+
+
+# Gross vs Score Scatter Plot
+
+![image](https://user-images.githubusercontent.com/88467263/151676399-2d3e5900-8b39-4637-bc0f-14828f47967c.png)
+
+
 * Explanation of model choice, including limitations and benefits
  
  * What Kind of Message will the dashboard display?
