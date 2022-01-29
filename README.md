@@ -66,7 +66,7 @@ We start our preprocessing steps by dropping our target variable "Score" column 
 ![image](https://user-images.githubusercontent.com/88467263/151669220-8cbe1330-e92f-41c3-9424-61953210bcda.png)
 
 
-We use the random forest classifier - RandomForestClassifier() prior to fitting the random forest model with our X_train_scaled and y_train training data. The  RandomForestClassifier() takes in multiple parameters and for our model we will use n_estimators = 200 and random_state = 78. The n_estimators is a key step because it will set the number of decision trees for the alogorithm to create. If we use a large amount of n_estimators it has the potential to slow down the model due to more training required with the higher number. After testing multipe values we determinned that 200 was an effective ammount for our dataset. After we create the random forest instance, we need to fit the model with our training sets.
+We use the random forest classifier - RandomForestClassifier() prior to fitting the random forest model with our X_train_scaled and y_train training data. The  RandomForestClassifier() takes in multiple parameters and for our model we will use n_estimators = 200 and random_state = 78. The n_estimators is a key step because it will set the number of decision trees for the alogorithm to create. If we use a large amount of n_estimators it has the potential to slow down the model due to more training required with the higher number. After testing multipe values we determined that 200 was an effective amount for our dataset. After we create the random forest instance, we need to fit the model with our training sets.
 
 ![image](https://user-images.githubusercontent.com/88467263/151669469-9c018611-500b-4b7e-b80e-3199b9466d40.png)
 
