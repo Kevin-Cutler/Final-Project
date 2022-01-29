@@ -71,10 +71,13 @@ We use the random forest classifier - RandomForestClassifier() prior to fitting 
 ![image](https://user-images.githubusercontent.com/88467263/151669469-9c018611-500b-4b7e-b80e-3199b9466d40.png)
 
 
+
+
+# After fitting the model, we make our predictions using the scaled testing data.
+
+ ![image](https://user-images.githubusercontent.com/88467263/151669837-929a079b-5801-4542-a504-f92c3852896a.png)
+
 * Explanation of model choice, including limitations and benefits
-
- 
-
  * Do we know how our model tells the story with the Data?
 
 ![image](https://user-images.githubusercontent.com/88467263/151465947-020a708b-bdc7-4ca5-8e40-18edcfb273fc.png)
