@@ -62,10 +62,15 @@ We start our preprocessing steps by dropping our target variable "Score" column 
 ![image](https://user-images.githubusercontent.com/88467263/151451833-8574d623-3e16-48f5-84e3-6a027e9ca1a1.png)
 
 
-* Description of preliminary feature engineering and preliminary feature selection, including the decision-making process
+# we can create the StandardScaler instance, fit the scaler with the training set, and scale the data.
+![image](https://user-images.githubusercontent.com/88467263/151669220-8cbe1330-e92f-41c3-9424-61953210bcda.png)
 
 
 * Description of how data was split into training and testing sets
+Before we fit the random forest model to our X_train_scaledand y_train training data, we'll create a random forest instance using the random forest classifier, RandomForestClassifier(). The RandomForestClassifier takes a variety of parameters, but for our purposes we only need the n_estimators and the random_state.
+The n_estimators will allow us to set the number of trees that will be created by the algorithm. Generally, the higher number makes the predictions stronger and more stable, but can slow down the output because of the higher training time allocated. The best practice is to use between 64 and 128 random forests, though higher numbers are quite common despite the higher training time. For our purposes, we'll create 128 random forests. After we create the random forest instance, we need to fit the model with our training sets.
+
+![image](https://user-images.githubusercontent.com/88467263/151669469-9c018611-500b-4b7e-b80e-3199b9466d40.png)
 
 
 * Explanation of model choice, including limitations and benefits
