@@ -105,6 +105,37 @@ We use the random forest classifier - RandomForestClassifier() prior to fitting 
 *  Out of 197 movies that obtained a "Unfavorable IMDB Score" (Actual 1),
    109 were predicted to be have a "Unfavorable IMDB Score" (Predicted 1)
    and are considered true negatives.
+   
+# Key Takeaways Model Performance
+
+* The accuracy of our model is 0.84% , which can also be calculated as follows:
+  True Positives (TP) + True Negatives (TN)) / Total = 0.84%.
+  
+* Precision: Precision is the measure of how reliable a positive classification 
+  is. From our results, the precision for the good IMDB movie scores can be
+  determined  by the ratio TP/(TP + FP), which is 0.85 . A low precision is indicative 
+  of a large number of false positives—of the 136 movie IMDB scores we predicted to obtain 
+  bad scores, 27 actually recieved a good IMDB movie scores.
+  
+* Recall: Recall is the ability of the classifier to find all
+  the positive samples. It can be determined by the ratio: TP/(TP + FN),
+  or 0.95 for the good IMDB movie scores and 0.55 for the bad IMDB movie scores. A low
+  recall is indicative of a large number of false negatives.
+  
+* F1 score: F1 score is a weighted average of the true positive
+  rate (recall) and precision, where the best score is 1.0
+  and the worst is 0.0. Our F1 score is 89.72%.
+  
+* Support: Support is the number of actual occurrences of the class in the specified dataset.
+  For our results, there are 515 actual occurrences for the good IMDB movie scores and 197
+  actual occurrences for bad IMDB movie scores.
+
+
+![image](https://user-images.githubusercontent.com/88467263/151670774-82c43436-d474-41e3-a2ea-d828ce674200.png)
+
+# Display Feature Importance using a Bar Graph Below
+
+![image](https://user-images.githubusercontent.com/88467263/151670866-0a461a19-5186-495d-9ab0-2e5952765dc2.png)
 
 * Explanation of model choice, including limitations and benefits
  
