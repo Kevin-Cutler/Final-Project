@@ -140,6 +140,7 @@ We use the random forest classifier - RandomForestClassifier() prior to fitting 
 # Votes vs Score Scatter Plot
 
 ![image](https://user-images.githubusercontent.com/88467263/151676700-a7bf9ab5-2d94-45a7-a7e2-59cebd1c2df8.png)
+
 __________________________________________________
 
 ![image](https://user-images.githubusercontent.com/88467263/151676710-9fdf45c7-849a-4684-a481-6cee2b207e9d.png)
@@ -147,12 +148,21 @@ __________________________________________________
 
 # Runtime vs Score Scatter Plot
 
-![image](https://user-images.githubusercontent.com/88467263/151676351-7f25a968-9b0d-4fa2-95c1-100c25c9a8b0.png)
+![image](https://user-images.githubusercontent.com/88467263/151676739-9271d6d2-878b-42a6-8cb9-72db5003bad0.png)
+
+__________________________________________________________________
+
+![image](https://user-images.githubusercontent.com/88467263/151676754-c02feefd-cf09-48ea-ab17-d0cc3720c228.png)
 
 
 # Gross vs Score Scatter Plot
 
-![image](https://user-images.githubusercontent.com/88467263/151676399-2d3e5900-8b39-4637-bc0f-14828f47967c.png)
+![image](https://user-images.githubusercontent.com/88467263/151676773-c401f0ee-7e00-4c39-b717-02b52cb27796.png)
+
+____________________________________________________________________
+
+![image](https://user-images.githubusercontent.com/88467263/151676785-fda53698-f5fd-4604-ad9f-92a98dbce216.png)
+
 
 
 * Explanation of model choice, including limitations and benefits
