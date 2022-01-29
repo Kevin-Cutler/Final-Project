@@ -139,7 +139,11 @@ We use the random forest classifier - RandomForestClassifier() prior to fitting 
 
 # Votes vs Score Scatter Plot
 
-![image](https://user-images.githubusercontent.com/88467263/151676325-b8b07ec8-7d2b-46a8-998a-969b7650706e.png)
+![image](https://user-images.githubusercontent.com/88467263/151676700-a7bf9ab5-2d94-45a7-a7e2-59cebd1c2df8.png)
+__________________________________________________
+
+![image](https://user-images.githubusercontent.com/88467263/151676710-9fdf45c7-849a-4684-a481-6cee2b207e9d.png)
+
 
 # Runtime vs Score Scatter Plot
 
