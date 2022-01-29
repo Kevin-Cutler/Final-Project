@@ -157,11 +157,11 @@ __________________________________________________________________
 
 # Gross vs Score Scatter Plot
 
-![image](https://user-images.githubusercontent.com/88467263/151676773-c401f0ee-7e00-4c39-b717-02b52cb27796.png)
+![image](https://user-images.githubusercontent.com/88467263/151676833-b06bfb72-907e-4be6-bd7f-c4db01a9988c.png)
 
 ____________________________________________________________________
 
-![image](https://user-images.githubusercontent.com/88467263/151676785-fda53698-f5fd-4604-ad9f-92a98dbce216.png)
+![image](https://user-images.githubusercontent.com/88467263/151676844-50b4df05-b53e-4751-acbd-17f847220324.png)
 
 
 
