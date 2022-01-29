@@ -77,7 +77,7 @@ We use the random forest classifier - RandomForestClassifier() prior to fitting 
 
  ![image](https://user-images.githubusercontent.com/88467263/151669837-929a079b-5801-4542-a504-f92c3852896a.png)
  
- # Evaluate the Model
+ # Evaluate the Model Confusion Matrix Results
  
  ![image](https://user-images.githubusercontent.com/88467263/151669886-de8df471-ed24-4ba9-a1c4-2c4ced6df4e8.png)
 
