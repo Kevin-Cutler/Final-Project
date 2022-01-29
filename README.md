@@ -18,7 +18,9 @@ A big reason we decided to use supervised random forest model and determine the 
 # Data Exploration
 _________________________________________________________
 
-Once we loaded our datasets into our notebook next step is to determine what data we must transform, we leverage pandas library for data cleaning. Our dataset needs to be transformed before being fed into our machine learning model. We will be merging the two datasets on our movie name columns but we have to make sure that there are no duplicates which will cause errors when joining the two into one dataframe.
+Once we loaded our datasets into our notebook we determine what data to transform and we leverage pandas library for data cleaning. Our dataset need to be transformed before being fed into our machine learning model. We will be merging the two datasets on our movie name columns but we have to make sure that there are no duplicates which will cause errors when joinging the two into one dataframe. We will be storing our movie data in a pgadmin database and joining the two tables  when we are ready to import our data to use in our model.
+
+# ERD of our Database
 
 ![ERD_quick_db](https://user-images.githubusercontent.com/88444529/151272050-784114b2-8acb-49cb-a745-fe19f0243f7d.PNG)
 
