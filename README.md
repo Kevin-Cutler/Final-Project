@@ -84,10 +84,6 @@ We use the random forest classifier - RandomForestClassifier() prior to fitting 
 ![image](https://user-images.githubusercontent.com/88467263/151677635-e12cf6b2-134b-4931-b0fe-0669d28bf513.png)
 
 
- * Do we know how our model tells the story with the Data?
-
-![image](https://user-images.githubusercontent.com/88467263/151465947-020a708b-bdc7-4ca5-8e40-18edcfb273fc.png)
-
 # Summary of Performance: Confusion Matrix
 
 *  Out of 515 movies that obtained a "Favorable IMDB Score" (Actual 0), 488
@@ -107,6 +103,8 @@ We use the random forest classifier - RandomForestClassifier() prior to fitting 
    and are considered true negatives.
    
 # Key Takeaways Model Performance
+
+![image](https://user-images.githubusercontent.com/88467263/151465947-020a708b-bdc7-4ca5-8e40-18edcfb273fc.png)
 
 * The accuracy of our model is 0.84% , which can also be calculated as follows:
   True Positives (TP) + True Negatives (TN)) / Total = 0.84%.
