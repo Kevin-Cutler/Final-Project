@@ -153,7 +153,7 @@ __________________________________________________________________
 ![image](https://user-images.githubusercontent.com/88467263/151676754-c02feefd-cf09-48ea-ab17-d0cc3720c228.png)
 
 
-# Gross vs Score Scatter Plot
+# Domestic Gross vs Score Scatter Plot
 
 ![image](https://user-images.githubusercontent.com/88467263/151676833-b06bfb72-907e-4be6-bd7f-c4db01a9988c.png)
 
