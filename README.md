@@ -8,12 +8,12 @@
 _____________________________
 The goal of this project is to take two different movie datasets in order to develop a machine learning model that can predict whether or not it has a "Favorable" or "Unfavorable" IMDb movie score. Both of the datasets were taken from kaggle.com. The dataset top_4000_movies has data from 4000 different movies for features such as production budget and gross revenue for each movie. The other dataset called movies also found from kaggle.com, has 7512 values for "movie_title" and contains other variables such as "rating", "genre", "year", "votes", and cast information. The movies dataset contains the IMDb score ("score") that was used as the outcome data and was broken up into scores above 6 as "Favorable", and below 6 as "Unfavorable". The two datasets were merged on the same movie title to use more features in our machine learning model. A random forest classifier model was used to predict the primary outcome of "Favorable" vs "Unfavorable" IMDb score as well as determine the most important features in the dataset. For this project our team met using slack and discussed topics in zoom meetings to collaborate.
 
-The type of logistic regression modeling we will use to predict IMDB scores is known as a classification algorithm where the model learns patterns from the data, which will allow the model to predict if based on the independent variables we provide if a IMDB movie score should be "Favorable" or "Unfavorable" for each piece of data. We bucket movie scores to be set as "Unfavorable" if a movie recieved a score from (1 to less than 6) and a "Favorable" score for 6-10. The movie score rankings in our kaggle dataset is between 1-10. We selected this dataset because we want to settle the dispute around which variables play a role in positively impacting a IMDB score.
+The type of logistic regression modeling we will use to predict IMDb scores is known as a classification algorithm where the model learns patterns from the data, which will allow the model to predict if based on the independent variables we provide if a IMDb movie score should be "Favorable" or "Unfavorable" for each piece of data. We bucket movie scores to be set as "Unfavorable" if a movie recieved a score from (1 to less than 6) and a "Favorable" score for 6-10. The movie score rankings in our kaggle dataset is between 1-10. We selected this dataset because we want to settle the dispute around which variables play a role in positively impacting a IMDB score.
 
 ## Advantages in Random Forest Models:
 ____________________________________________
 For our machine learning model we decided to use a random forest model. These type of supervised machine learning models are great for clustering points of data into functional groups. We are using over 2000 rows of data and random forest models are ideal against overfitting by generating a high number of weak learners rather than one large complex tree, and training the different pieces of the data.
-A big reason we decided to use the supervised random forest model and determine the most important variable in predicting IMBD movie scores, was because the variables can be ranked by importance of input in a natural way with this model. The model can handle thousands of input variables which is ideal since our dataset will have a large number of variables after encoding, without variable deletion. The model works well on large datasets and is great with handling outliers and nonlinear data.  This is another reason we chose this model, since our dataset will have non-linear data with categorical variables included in the model and the revenue and monetary values likely have outliers.
+A big reason we decided to use the supervised random forest model and determine the most important variable in predicting IMDb movie scores, was because the variables can be ranked by importance of input in a natural way with this model. The model can handle thousands of input variables which is ideal since our dataset will have a large number of variables after encoding, without variable deletion. The model works well on large datasets and is great with handling outliers and nonlinear data.  This is another reason we chose this model, since our dataset will have non-linear data with categorical variables included in the model and the revenue and monetary values likely have outliers.
 
 ## Disadvantages in Random Forest Models:
 ____________________________________________
@@ -47,12 +47,12 @@ Upon exporting the dataframes into the "movies_final" database a join was done o
  ![image](https://user-images.githubusercontent.com/88467263/151077295-b8d678b6-2d7a-4199-b362-417e4034f2ca.png)
 
 
-Our goal is to determine IMDB movie scores and we decided to categorize our movie scores into two buckets since currently our datasets scores range from between (1-10). Instead of determining each movie score we want to know what factores predict "Favorable" and "Unfavorable" movie scores. For this step we created a function to transform movie scores 6 and greater to a string called "Favorable" and for scores less than 6 we will change those to "Unfavorable". This way when we start to Hot Encode our categorical data we get a 0 for "Favorable" IMDB Scores and 1 for "Unfavorable" IMDB Scores.
+Our goal is to determine IMDb movie scores and we decided to categorize our movie scores into two buckets since currently our datasets scores range from between (1-10). Instead of determining each movie score we want to know what factores predict "Favorable" and "Unfavorable" movie scores. For this step we created a function to transform movie scores 6 and greater to a string called "Favorable" and for scores less than 6 we will change those to "Unfavorable". This way when we start to Hot Encode our categorical data we get a 0 for "Favorable" IMDb scores and 1 for "Unfavorable" IMDb scores.
 
 ![image](https://user-images.githubusercontent.com/88467263/151449957-51db6991-e884-4376-937c-d188a40d6c08.png)
 
 
-Next we notice that there are columns in our dataframe that have values that are very large, these columns are "Production_Budget", "Domestic_Gross", "Worldwide Gross", "votes", "budget", and "gross". Before we can feed our dataset into a machine learning model we will need to scale these values down from 9 digits to 3 to 4 digits which will help our machine learning model make a more accurate decision. 
+Next we notice that there are columns in our dataframe that have values that are very large, these columns are "Production_Budget", "Domestic_Gross", "Worldwide_Gross", "votes", "budget", and "gross". Before we can feed our dataset into a machine learning model we will need to scale these values down from 9 digits to 3 to 4 digits which will help our machine learning model make a more accurate decision. 
 
 ![image](https://user-images.githubusercontent.com/88467263/151451025-3c92fc26-3a08-4823-9b5c-cedbcd0fa110.png)
 
@@ -69,7 +69,7 @@ _______________________________________________________________________
 # Preparing our Model
 ______________________________________________________
 
-We start our preprocessing steps by dropping our target variable "score" column and assigning it to "y" variable. We assign the features to the variable "X". Looking at our "X" variable using pandas describe() we have 2847 records for our model. Having a significant amount of data is key for our machine learning model  to allow it to make predictions based on patterns in the data. Using value_counts() on our "y" variable (our target) we see that there are 2065 "Favorable" IMDB scores and 782 "Unfavorable" IMDB scores. We initate the next step which is to split the training and test sets. The model uses the training dataset to learn from it. It then uses the testing dataset to assess its performance. With machine learning the data must be split, training the model on the whole dataset will prevent the model from knowing how to  perform when it encounters new data. This makes it a pivotal step to set aside a portion of your dataset to evaluate your model.
+We start our preprocessing steps by dropping our target variable "score" column and assigning it to "y" variable. We assign the features to the variable "X". Looking at our "X" variable using pandas describe() we have 2847 records for our model. Having a significant amount of data is key for our machine learning model  to allow it to make predictions based on patterns in the data. Using value_counts() on our "y" variable (our target) we see that there are 2065 "Favorable" IMDb scores and 782 "Unfavorable" IMDb scores. We initate the next step which is to split the training and test sets. The model uses the training dataset to learn from it. It then uses the testing dataset to assess its performance. With machine learning the data must be split, training the model on the whole dataset will prevent the model from knowing how to  perform when it encounters new data. This makes it a pivotal step to set aside a portion of your dataset to evaluate your model.
 
 ![image](https://user-images.githubusercontent.com/88467263/151451774-9dc90e11-1d2d-45a5-949e-6804c167dc7c.png)
 
@@ -95,31 +95,31 @@ We use the random forest classifier - RandomForestClassifier() prior to fitting 
  
 # Evaluate the Model Confusion Matrix Results
  
-Looking at the results of our confusion matrix below, we were able to obtain a precision of 85% for predicting "Favorable" IMDB movie scores that are actually "Favorable" in the   dataset provided to the model. For predicting movie scores as being "Unfavorable" for movies that indeed recieved a actual "Unfavorable" score our model, obtained a 80%. Precision is the measure of how reliable a positive classification is. So at accurately classifying IMDB movies scores as being part either truly "Favorable" or truly "Unfavorable" scores groups, this model performs well when looking at precision. This indicates a low number of false positives for incorrectly classifying IMDB scores which signifies a positive classification model. The recall for classifying Actual "Favorable" IMDB movie scores is 95% and for classifying Actual "Unfavorable" IMDB movie scores is 55% which is not the most ideal but 5% higher for making a accurate predicition. Recall is the ability of the classifier to find all the positive samples. The recall is low for predicting Actual "Unfavorable" IMDB movie scores, which is determined by the TN(109)/(TN(109)+FP(88)) = .55. The F1 score is also low (65%) but not terrible. The f1 score for predicting Actual  "Favorable" IMDB movie scores is 89% which is also good. F1 score is a weighted average of the true positive rate (recall) and precision, where the best score is 1.0 and the worst is 0.0. Our F1 score is 89.72%.
+Looking at the results of our confusion matrix below, we were able to obtain a precision of 85% for predicting "Favorable" IMDb movie scores that are actually "Favorable" in the   dataset provided to the model. For predicting movie scores as being "Unfavorable" for movies that indeed recieved a actual "Unfavorable" score our model, obtained a 80%. Precision is the measure of how reliable a positive classification is. So at accurately classifying IMDb movies scores as being part either truly "Favorable" or truly "Unfavorable" scores groups, this model performs well when looking at precision. This indicates a low number of false positives for incorrectly classifying IMDb scores which signifies a positive classification model. The recall for classifying Actual "Favorable" IMDb movie scores is 95% and for classifying Actual "Unfavorable" IMDb movie scores is 55% which is not the most ideal but 5% higher for making a accurate predicition. Recall is the ability of the classifier to find all the positive samples. The recall is low for predicting Actual "Unfavorable" IMDb movie scores, which is determined by the TN(109)/(TN(109)+FP(88)) = .55. The F1 score is also low (65%) but not terrible. The f1 score for predicting Actual  "Favorable" IMDb movie scores is 89% which is also good. F1 score is a weighted average of the true positive rate (recall) and precision, where the best score is 1.0 and the worst is 0.0. Our F1 score is 89.72%.
  
 
 
-In summary, this random forest model is good at classifying Actual "Favorable" IMDB movie scores because the model's accuracy, 84%, and F1 scores are good.
+In summary, this random forest model is good at classifying Actual "Favorable" IMDb movie scores because the model's accuracy, 84%, and F1 scores are good.
  
 ![image](https://user-images.githubusercontent.com/88467263/151677635-e12cf6b2-134b-4931-b0fe-0669d28bf513.png)
 
 
 # Summary of Performance: Confusion Matrix
 
-*  Out of 515 movies that obtained a "Favorable" IMDB Score (Actual 0), 488
-   were predicted to have a "Favorable" IMDB Score (Predicted 0),
+*  Out of 515 movies that obtained a "Favorable" IMDb score (Actual 0), 488
+   were predicted to have a "Favorable" IMDB score (Predicted 0),
    which is known as true positives. 
    
-*  Out of 515 movies that obtained a "Favorable" IMDB Score (Actual 0),
-   27 were predicted to have a "Unfavorable" IMDB Score (Predicted 1),
+*  Out of 515 movies that obtained a "Favorable" IMDb score (Actual 0),
+   27 were predicted to have a "Unfavorable" IMDb score (Predicted 1),
    which are considered false negatives.
    
-*  Out of 197 movies that obtained a "Unfavorable" IMDB Score (Actual 1),
-   88 were predicted to have a "Favorable" IMDB Score (Predicted 0)
+*  Out of 197 movies that obtained a "Unfavorable" IMDb score (Actual 1),
+   88 were predicted to have a "Favorable" IMDb score (Predicted 0)
    and are considered false positives.
    
-*  Out of 197 movies that obtained a "Unfavorable" IMDB Score (Actual 1),
-   109 were predicted to be have a "Unfavorable" IMDB Score (Predicted 1)
+*  Out of 197 movies that obtained a "Unfavorable" IMDb score (Actual 1),
+   109 were predicted to be have a "Unfavorable" IMDb score (Predicted 1)
    and are considered true negatives.
    
 ## Heatmap to Visualize Performance
@@ -148,7 +148,7 @@ ______________________________________
   and the worst is 0.0. Our F1 score is 89.72%.
   
 * Support: Support is the number of actual occurrences of the class in the specified dataset.
-  For our results, there are 515 actual occurrences for the good IMDB movie scores and 197
+  For our results, there are 515 actual occurrences for the good IMDb movie scores and 197
   actual occurrences for bad IMDb movie scores.
 
 
