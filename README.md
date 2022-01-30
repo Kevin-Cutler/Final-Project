@@ -116,7 +116,7 @@ In summary, this random forest model is good at classifying Actual  Favorable IM
    
 ## Heatmap to Visualize Performance
 
-![image](https://user-images.githubusercontent.com/88467263/151703118-13d75aa6-04b6-4d5b-91c5-0711f6144d8d.png)
+![image](https://user-images.githubusercontent.com/88467263/151703957-aa76017f-362c-40f2-8039-7c8ace61bde7.png)
 
 # Key Takeaways Model Performance
 ______________________________________
