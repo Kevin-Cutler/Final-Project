@@ -91,7 +91,7 @@ and the worst is 0.0. Our F1 score is 89.72%.
  
 
 
-In summary, this random forest model is not good at classifying fraudulent loan applications because the model's accuracy, 0.520, and F1 score are low.
+In summary, this random forest model is good at classifying Actual  Favorable IMDB movie scores because the model's accuracy, 84%, and F1 scores are good.
  
 ![image](https://user-images.githubusercontent.com/88467263/151677635-e12cf6b2-134b-4931-b0fe-0669d28bf513.png)
 
