@@ -167,7 +167,7 @@ __________________________________________
 ![image](https://user-images.githubusercontent.com/88467263/151677474-b35d9ff9-5dd8-4c81-b015-ef44b0f81b63.png)
 
 
-* Explanation of model choice, including limitations and benefits
+* We found that the Random Forest Model has the highest probability for predicting IMDB Movie Scores
 
 ![image](https://user-images.githubusercontent.com/88467263/151680039-d97b8c3e-99e9-4fab-ae08-bb1be22e6115.png)
 
