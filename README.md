@@ -14,7 +14,8 @@ The type of logistic regression modeling we will use to predict IMDB scores is k
 For our machine learning model we decided to use a random forest model. These type of supervised machine learning models are great for clustering points of data into functional groups. We are using over 2000 rows of data and random forest models are ideal against overfitting each of those weak learners and training the different pieces of the data.
 A big reason we decided to use supervised random forest model and determine the most important variable in predicting IMBD movie scores is that variables can be ranked by importance of input in a natural way. The model can handle thousands of input variables without variable deletion. The model works well on large datasets and is great with handling outliers and nonlinear data.
 
-### Disadvantages in Random Forest Models:
+## Disadvantages in Random Forest Models:
+____________________________________________
 Being that random forest uses multiple decision trees it is known to be slow at generating predictions. The time consuming process of decision making with random forest models is that trees are dependant on processing the same given input and then making predictions on the data.
 
 # Data Exploration
