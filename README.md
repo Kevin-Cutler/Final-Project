@@ -116,7 +116,7 @@ In summary, this random forest model is good at classifying Actual  Favorable IM
    
 ## Heatmap to Visualize Performance
 
-![image](https://user-images.githubusercontent.com/88467263/151465947-020a708b-bdc7-4ca5-8e40-18edcfb273fc.png)
+![image](https://user-images.githubusercontent.com/88467263/151703118-13d75aa6-04b6-4d5b-91c5-0711f6144d8d.png)
 
 # Key Takeaways Model Performance
 ______________________________________
@@ -196,6 +196,8 @@ ____________________________________________________________
 
 ![image](https://user-images.githubusercontent.com/88467263/151680039-d97b8c3e-99e9-4fab-ae08-bb1be22e6115.png)
 
-Instead of having a single, complex tree like the ones created by decision trees, a random forest algorithm will sample the data and build several smaller, simpler decision trees. Each tree is simpler because it is built from a random subset of features: 
-These simple trees are weak learners because they are created by randomly sampling the data and creating a decision tree for only that small portion of data. And since they are trained on a small piece of the original data, they are only slightly better than a random guess. However, many slightly better than average small decision trees can be combined to create a strong learner, which has much better decision-making power.
+# Summary:
+
+Our choice to use a ranodom forest model was proven to be a good solution in classifying favorable IMDB movie scores vs classifying unfavorable IMDB movie scores. The good things about random forest models is that it analyzes the data by building several smaller, simpler decision trees and combining decision trees to create a strong learner, which has much better decision-making power. The randomly sampled data is a weker learner when created but as the model combines those weaker learners the model can become well trained and effective at make accurate predictions.
+
 * Link to Google slides: [here](https://docs.google.com/presentation/d/1K3iR-3VI6Z6oexiieo5eO8K5bZ4lB0vluZBnga12fdw/edit?usp=sharing)
