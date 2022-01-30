@@ -187,7 +187,5 @@ ____________________________________________________________
 
 ![image](https://user-images.githubusercontent.com/88467263/151680039-d97b8c3e-99e9-4fab-ae08-bb1be22e6115.png)
 
- 
- * What Kind of Message will the dashboard display?
 
 * Link to Google slides: [here](https://docs.google.com/presentation/d/1K3iR-3VI6Z6oexiieo5eO8K5bZ4lB0vluZBnga12fdw/edit?usp=sharing)
