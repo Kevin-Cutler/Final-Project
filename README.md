@@ -175,6 +175,9 @@ ____________________________________________________________________
 
 # Correlation Matrix for Movie Features
 __________________________________________
+
+* With a correlation matrix we continue to identify  the highest correlation to IMDB Score being 'Votes' and Runtime' which align with our results.
+
 ![image](https://user-images.githubusercontent.com/88467263/151677458-7199e948-9ba5-430d-a231-a1c2025272dd.png)
 ![image](https://user-images.githubusercontent.com/88467263/151677474-b35d9ff9-5dd8-4c81-b015-ef44b0f81b63.png)
 
