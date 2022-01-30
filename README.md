@@ -143,6 +143,8 @@ ______________________________________
 
 # Votes vs Score Scatter Plot
 
+* In our plot we can show correlation between Votes vs Score.
+
 ![image](https://user-images.githubusercontent.com/88467263/151676700-a7bf9ab5-2d94-45a7-a7e2-59cebd1c2df8.png)
 
 __________________________________________________
@@ -152,6 +154,8 @@ __________________________________________________
 
 # Runtime vs Score Scatter Plot
 
+* In our plot we can show correlation between Runtime vs Score.
+
 ![image](https://user-images.githubusercontent.com/88467263/151676739-9271d6d2-878b-42a6-8cb9-72db5003bad0.png)
 
 __________________________________________________________________
@@ -160,6 +164,8 @@ __________________________________________________________________
 
 
 # Domestic Gross vs Score Scatter Plot
+
+* In our plot we can show correlation between Domestic Gross vs Score.
 
 ![image](https://user-images.githubusercontent.com/88467263/151676833-b06bfb72-907e-4be6-bd7f-c4db01a9988c.png)
 
