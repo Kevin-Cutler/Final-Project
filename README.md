@@ -86,6 +86,12 @@ We use the random forest classifier - RandomForestClassifier() prior to fitting 
  
  # Evaluate the Model Confusion Matrix Results
  
+ Looking at the results of our confusion matrix below, we were able to obtain a precision of 85% for predicting Favorable IMDB movie scores that are actually Favorable in the dataset provided to the model. For predicting movie scores as being Unfavorable for movies that indeed recieved a actual Unfavorable score our model obtained a 80%. Precision is the measure of how reliable a positive classification is. So at accurately classifying IMDB movies scores at being part of actually Favorable and actually Unfavorable scores groups this model performs good when looking at precision. This indicates a low number of false positives for incorrectly classifying IMDB scores which signifies a positive classification model. The recall for classifying Actual Favorable IMDB movie scores is 95% and for classifying Actual Unfavorable IMDB movie scores is 55% which is not the most ideal but 5% higher for making a accurate predicition. Recall is the ability of the classifier to find all the positive samples.
+ 
+The recall is also low for the bad loan applications, which is indicative of a large number of false negatives. The F1 score is also low (33).
+
+In summary, this random forest model is not good at classifying fraudulent loan applications because the model's accuracy, 0.520, and F1 score are low.
+ 
 ![image](https://user-images.githubusercontent.com/88467263/151677635-e12cf6b2-134b-4931-b0fe-0669d28bf513.png)
 
 
