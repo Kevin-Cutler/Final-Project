@@ -11,6 +11,8 @@ The goal of this project is to take two different movie datasets in order to dev
 
 The type of logistic regression modeling we will use to predict IMDB scores is known as a classification algorithm where the model learns patterns from the data, which will allow the model to predict if based on the independent variables we provide if a IMDB movie score should be "Favorable" or "Unfavorable" for each piece of data. We bucket movie scores to be set as Unfavorable if a movie recieved a score from (1 to less than 6) and a Favorable score for 6-10. The movie score rankings in our kaggle dataset is between 1-10.  We selected this dataset because we want  to settle the dispute around which variables play a role in positively impacting a IMDB score. 
 
+## Advantages in Random Forest Models:
+____________________________________________
 For our machine learning model we decided to use a random forest model. These type of supervised machine learning models are great for clustering points of data into functional groups. We are using over 2000 rows of data and random forest models are ideal against overfitting each of those weak learners and training the different pieces of the data.
 A big reason we decided to use supervised random forest model and determine the most important variable in predicting IMBD movie scores is that variables can be ranked by importance of input in a natural way. The model can handle thousands of input variables without variable deletion. The model works well on large datasets and is great with handling outliers and nonlinear data.
 
