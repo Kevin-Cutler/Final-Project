@@ -105,9 +105,12 @@ We use the random forest classifier - RandomForestClassifier() prior to fitting 
    109 were predicted to be have a "Unfavorable IMDB Score" (Predicted 1)
    and are considered true negatives.
    
-# Key Takeaways Model Performance
+## Heatmap to Visualize Performance
 
 ![image](https://user-images.githubusercontent.com/88467263/151465947-020a708b-bdc7-4ca5-8e40-18edcfb273fc.png)
+
+# Key Takeaways Model Performance
+______________________________________
 
 * The accuracy of our model is 0.84% , which can also be calculated as follows:
   True Positives (TP) + True Negatives (TN)) / Total = 0.84%.
