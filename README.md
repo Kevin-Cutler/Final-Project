@@ -212,4 +212,3 @@ Our choice to use a random forest model has proven to be a good solution in clas
 
 * link to tableau dashboard
 https://public.tableau.com/app/profile/justeena5773/viz/finalproject_16425529118060/Dashboard1#1
-![Dashboard 1 (1)](https://user-images.githubusercontent.com/88864493/151739807-fd2f9fd5-bc9e-4687-8a25-89a4e03711c7.png)
