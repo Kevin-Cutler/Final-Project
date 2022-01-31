@@ -22,7 +22,7 @@ Being that random forest uses multiple decision trees it is known to be slow at 
 # Database and Data Exploration
 _________________________________________________________
 
-Data was cleaned in jupyternotebooks using Pandas based on the ERD made in QuickDBD and presented in the image below for our database structure.
+Data was cleaned in Jupyter Notebook using Pandas based on the ERD made in QuickDBD and presented in the image below for our database structure.
 ![ERD_quick_db](https://user-images.githubusercontent.com/88444529/151272050-784114b2-8acb-49cb-a745-fe19f0243f7d.PNG)
 
 The movies.csv file was read into pandas and created into a dataframe, movies_df.  Prior to any data cleaning there were 7363 rows in the movies_df dataframe.  The dataframe was inspected for duplicate entries and null values.  Each of the rows with duplicate entries for "movie_name" were dropped from the dataset.  There were 163 duplicate values that were dropped and 2162 rows that contained null values that were dropped.  The resulting movies_df dataframe had 5201 rows with unique values for "movie_name".
