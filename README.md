@@ -156,7 +156,7 @@ ______________________________________
 
 # Display Feature Importance using a Bar Graph Below
 
-![image](https://user-images.githubusercontent.com/88467263/151670866-0a461a19-5186-495d-9ab0-2e5952765dc2.png)
+![image](https://user-images.githubusercontent.com/88467263/152894646-d53b4d15-0d03-4cee-b010-d3eb3e6a9e3f.png)
 
 # Votes vs Score Scatter Plot
 
